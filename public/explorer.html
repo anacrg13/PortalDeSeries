@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorar Séries</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+<style>
+
+body.explorar {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main.explorar {
+  flex: 1;
+}
+
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+</style>
+
+</head>
+<body class="explorar">
+  <header>
+    <h1>Portal de Séries</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explorer.html">Explorar</a>
+    </nav>
+  </header>
+  <main class="explorar">
+    <section id="explorer-section">
+      <h2 class="text-center">Buscar Séries</h2>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Digite o nome da série..." required>
+        <button type="submit">Buscar</button>
+      </form>
+      <div id="search-results" class="cards-container">
+        <!-- Resultados serão exibidos aqui -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="text-center mt-4">&copy; 2024 - Portal de Séries</p>
+  </footer>
+  
+  <script src="./assets/scripts/explorer.js"></script>
+</body>
+</html>

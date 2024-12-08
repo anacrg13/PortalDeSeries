@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes da Série</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome para o ícone de coração -->
+</head>
+<body>
+  <header>
+    <h1>Portal de Séries</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explorer.html">Explorar</a>
+    </nav>
+  </header>
+  <main>
+    <section id="detalhes">
+      <h2>Detalhes da Série</h2>
+      <div class="detalhes-container">
+        <div class="detalhes-img">
+          <img src="https://image.tmdb.org/t/p/w500/xyz.jpg" alt="Nome da Série">
+        </div>
+        <div class="detalhes-info">
+          <h3>Nome da Série (Ano)</h3>
+          <p><strong>Gênero:</strong> Drama, Comédia</p>
+          <p><strong>Sinopse:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae.</p>
+          <p><strong>Data de lançamento:</strong> 25/12/1952</p>
+          <p><strong>Quantidade de Temporadas:</strong> 5</p>
+          <p><strong>Avaliação dos usuários:</strong> 8.3</p>
+          <button id="favorito-btn" class="heart-btn"><i class="far fa-heart"></i></button> <!-- Ícone de coração -->
+        </div>
+      </div>
+    </section>
+    <section id="elenco">
+      <h2>Elenco</h2>
+      <div class="cards-elenco">
+        <div class="card">
+          <img src="https://image.tmdb.org/t/p/w500/actor.jpg" alt="Nome do Ator">
+          <h5>Nome do Ator</h5>
+          <p>Personagem</p>
+        </div>
+        <!-- Repetir os cards conforme necessário -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="text-center mt-4">&copy; 2024 - Portal de Séries</p>
+  </footer>
+
+  <script src="./assets/scripts/detalhes.js"></script> <!-- Script para controlar o comportamento do botão de coração -->
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "perfil": {
+    "id": 1,
+    "nome": "Ana Caroline Resende",
+    "email": "anacaroline@email.com",
+    "instagram": "https://www.instagram.com/anaa.crg/",
+    "minibio": "Meu nome é Ana Caroline, tenho 24 anos e sou estudante de Análise e Desenvolvimento de Sistemas na PUC Minas, campus Contagem. Desenvolvi este projeto como parte do meu aprendizado em programação e desenvolvimento web.",
+    "avatar": "assets/img/MinhaFoto.jpeg"
+  },
+  "favoritos": [
+    {
+      "id": 18165,
+      "name": "The Vampire Diaries",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lcGQaSrWkkxGuh0JJqyN2TkuNqb.jpg",
+      "overview": "A história de dois irmãos vampiros obcecados pela mesma garota em uma pequena cidade cheia de segredos sobrenaturais."
+    },
+    {
+      "id": 2316,
+      "name": "The Office",
+      "poster_path": "https://image.tmdb.org/t/p/w500/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
+      "overview": "Uma série que retrata o cotidiano hilário dos funcionários de um escritório, liderados pelo excêntrico gerente Michael Scott."
+    },
+    {
+      "id": 1395,
+      "name": "Gossip Girl",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hvDlmhoImfX5oUYS2gXxsMrpSTB.jpg",
+      "overview": "A vida de adolescentes ricos de Manhattan é narrada por uma blogueira misteriosa conhecida como Gossip Girl."
+    },
+    {
+      "id": 2288,
+      "name": "Prison Break",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg",
+      "overview": "Um homem cria um plano para salvar seu irmão da pena de morte infiltrando-se na prisão onde ele está detido."
+    },
+    {
+      "id": 34524,
+      "name": "Teen Wolf",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8Ij1O2nU8exLgwPXU8Eo6PZdCDC.jpg",
+      "overview": "Após ser mordido por um animal, Scott vira lobisomem e é o cara adorado por todas na escola. Só que ele também ganha novos problemas."
+    },
+    {
+      "id": 66732,
+      "name": "Stranger Things",
+      "poster_path": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+      "overview": "Quando um menino desaparece, a cidade desvenda um mistério envolvendo experimentos secretos, forças sobrenaturais e uma estranha garota."
+    },
+    {
+      "id": 91239,
+      "name": "Bridgerton",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zEcDoFl78IFR5cE1fUEIveDQAnk.jpg",
+      "overview": "Oito irmãos inseparáveis buscam amor e felicidade na alta sociedade de Londres."
+    },
+    {
+      "id": 78191,
+      "name": "You",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d14IUBHQkSEpdPAbCrHRii3j5PW.jpg",
+      "overview": "Obsessivo e perigosamente charmoso, ele vai ao extremo para entrar na vida de quem o fascina. Você pode acabar fisgada sem nem perceber. Aí, pode ser tarde demais."
+    },
+    {
+      "id": 46896,
+      "name": "The Originals",
+      "poster_path": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/keJOhJXGiLL54EW6QocbyvQGquA.jpg",
+      "overview": "Um clã de vampiros originais retorna a Nova Orleans para recuperar a cidade que ajudaram a construir séculos atrás."
+    },
+    {
+      "id": 71912,
+      "name": "The Witcher",
+      "poster_path": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+      "overview": "Geralt de Rívia, um caçador de monstros, luta para encontrar seu lugar em um mundo onde as pessoas frequentemente são mais perversas que as bestas."
+    }
+  ]
+}

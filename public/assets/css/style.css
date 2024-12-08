@@ -1,0 +1,419 @@
+/* Estilos Gerais */
+body.pagina-inicial {
+  background-color: #000000; /* Fundo preto */
+  color: #fff; /* Texto branco */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Cor preta */
+  color: #fff; /* Texto branco para contraste */
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #181818;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Diminuindo a largura do bloco para ficar menos largo */
+}
+
+/* Estilo dos Detalhes da Série em Colunas */
+.detalhes-container {
+  display: grid;
+  grid-template-columns: 300px 1fr; /* Definindo duas colunas: uma para a imagem e outra para as informações */
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.detalhes-img {
+  max-width: 100%;
+  align-self: start;
+}
+
+.detalhes-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.detalhes-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.detalhes-info h5  {
+  font-size: 2rem;
+  color: #f1e8e8;
+  margin-bottom: 1rem;
+}
+
+.detalhes-info p {
+  font-size: 1rem;
+  color: #f1e8e8;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo do Botão Coração */
+.heart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+  outline: none;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+.heart-btn i {
+  color: #b40707; /* Cor padrão do ícone de coração */
+}
+
+.heart-btn.liked i {
+  color: #e63946; /* Cor vermelha quando marcado como favorito */
+}
+
+.heart-btn:hover i {
+  color: #ff6b6b; /* Cor ao passar o mouse sobre o ícone */
+}
+
+/* Estilo do Carrossel */
+#series-populares {
+  margin-top: 1.5rem;
+  max-width: 900px; /* Mantendo a largura do bloco principal igual aos outros */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-container {
+  max-width: 500px; /* Diminuindo a largura do carrossel para torná-lo ainda menos largo */
+  margin: 0 auto; /* Centralizando o carrossel no bloco */
+}
+
+.carousel-inner {
+  border: 2px solid #a38603;
+  border-radius: 8px;
+  position: relative;
+  width: 100%;
+  height: 450px; /* Aumentando a altura para reduzir cortes e dar mais espaço vertical */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem ocupe toda a altura sem distorcer */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0; /* Posiciona a legenda um pouco acima da borda inferior */
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4); /* Clareando o fundo da legenda */
+  padding: 1rem;
+  text-align: left;
+  color: white;
+  border-radius: 8px;
+
+}
+
+.carousel-caption h5 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+/* Estilo dos Cards de Séries */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cards-container .card {
+  background: #000000;
+  border: 1px solid #a38603;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cards-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards-container img {
+  width: 100%;
+  height: auto; /* Definindo uma altura fixa para as imagens */
+  object-fit: cover;
+  border-bottom: 1px solid #a38603;
+}
+
+.cards-container h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #f1e8e8;
+}
+
+.cards-container p {
+  margin: 0.5rem;
+  color: #f1e8e8;
+  font-size: 0.9rem;
+}
+
+/* Perfil do Autor - Centralização e Imagem Circular */
+.perfil-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
+.perfil-container img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #a38603;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.perfil-container h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.perfil-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.perfil-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.perfil-container ul li {
+  margin: 0.5rem 0;
+}
+
+.perfil-container a {
+  color: #f1e8e8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.perfil-container a:hover {
+  color: #a38603;
+  text-decoration: none;
+}
+
+#search-form {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+#search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #5c4b01;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#search-form button:hover {
+  background-color: #a38603;
+}
+
+#search-results {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#search-results .card {
+  background: #000000;
+  border: 1px solid #a38603;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#search-results .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#search-results img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#search-results h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #f1e8e8;
+}
+
+
+/* Estilo do Elenco */
+.cards-elenco {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cards-elenco .card {
+  background: #000000;
+  border: 1px solid #a38603;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cards-elenco .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards-elenco img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #a38603;
+}
+
+.cards-elenco h5 {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #f1e8e8;
+}
+
+.cards-elenco p {
+  margin: 0.5rem;
+  color: #f1e8e8;
+  font-size: 0.8rem;
+}
+
+
+
+/* Responsividade - Carrossel */
+@media (max-width: 768px) {
+  .carousel-caption {
+    padding: 0.5rem;
+    width: 90%; /* Largura da legenda mais adaptável em telas pequenas */
+    font-size: 0.8rem;
+    text-align: center;
+    bottom: 15%;
+  }
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsividade - Seções e Cards */
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+  }
+  .detalhes-container {
+    grid-template-columns: 1fr; /* Alterar para uma coluna em dispositivos menores */
+  }
+  .cards-elenco {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}
